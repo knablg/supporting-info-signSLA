@@ -3,4 +3,4 @@
 
 "learning procedure" contains the process each participant went through when learning each word
 
-"R scripts" contains the scirpts for statistical analysis
+"scripts" contains the scirpts for statistical analysis
