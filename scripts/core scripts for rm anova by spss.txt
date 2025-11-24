@@ -1,0 +1,10 @@
+GLM highicon-highcomp highicon-lowcomp lowicon-highcomp lowicon-lowcomp 
+  /WSFACTOR=iconicity 2 Polynomial complexity 2 Polynomial 
+  /METHOD=SSTYPE(3) 
+  /PLOT=PROFILE(iconicity*complexity complexity*iconicity) TYPE=LINE ERRORBAR=NO MEANREFERENCE=NO 
+    YAXIS=AUTO 
+  /PRINT=DESCRIPTIVE ETASQ OPOWER 
+  /EMMEANS = TABLES(iconicity*complexity)COMPARE(iconicity)ADJ(BONFERRONI) 
+  /EMMEANS = TABLES(iconicity*complexity)COMPARE(complexity)ADJ(BONFERRONI) 
+  /CRITERIA=ALPHA(.05) 
+  /WSDESIGN=iconicity complexity iconicity*complexity.
